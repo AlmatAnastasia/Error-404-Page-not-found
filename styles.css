@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+main {
+  margin: 110px 380px 30px 380px;
+  width: 520px;
+  max-height: 660px;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: 190px;
+  display: block;
+}
+
+.error {
+  margin: 0 50px 0 50px;
+  width: 420px;
+  font-size: 7em;
+}
+
+.errortext {
+  opacity: 0;
+  margin: 22px 50px 0 50px;
+  width: 420px;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+.error:hover+.errortext {
+  opacity: 1;
+}
+
+.text {
+  margin: 280px 50px 0 50px;
+  width: 420px;
+}
+
+a:link {
+  color: #2f80ed;
+}
+
+a:visited {
+  color: #2f80ed;
+}
